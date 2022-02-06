@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange-color{
     color: rgb(165, 95, 16);
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -28,12 +31,37 @@ color: rgb(252, 248, 248);
 font-weight: 700;
 border-radius: 5px;
 }
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+#web-dev-exprience{
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+#full-stak-exprience{
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    background-position: left;
 }
 .dream-big{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    border-radius: 10px;
+    margin-right: 5%;padding-left: 20px;
+    box-shadow: 10PX 10PX 40px gray;
+}
+footer p {
+    text-align: center;
 }
